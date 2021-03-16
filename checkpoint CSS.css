@@ -1,0 +1,124 @@
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #747474;
+    font-weight: 400;
+    font-size: 16px
+}
+.img-logo{
+    display: block;
+    margin: 0 auto;
+
+}
+.main-title{
+    text-align: center;
+    color:#00b39b;
+    font-weight: 300 ;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0 -2;
+    margin: 30px 0;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+    float: right;
+    padding: 17px 16px;
+    font-size: 17px;
+}
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown content{
+    display: none;
+    position: absolute;
+}
+.dropdown content a{
+    float: none;
+    text-decoration: none;
+    text-align: left;
+}
+.div1{
+    margin: 0 -10px;
+    display: flex;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 20px;
+}
+.div2-1{
+    background: #00b39b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.div2-2{
+    background: #3d83df;
+    color: #fff;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.div2-3{
+    background: #1b2734;
+    color: #fff;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+.sec3{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+}
+.brands-logos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 0;
+    width: 67%;
+}
+.sec4{
+    display: flex;
+    justify-content: space-around;;
+}
+.divcol-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.divcol-2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
